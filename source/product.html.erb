@@ -1,0 +1,29 @@
+---
+layout: layout
+---
+
+<div class="container">
+  <div class="columns">
+    <div class="column is-third">
+      <%= image_tag product.image %>
+    </div>
+    <div class="column">
+      <h1 class="title">
+        <%= product.name %>
+      </h1>
+
+      <h2 class="subtitle">
+        <%= number_to_currency(product.price, :unit => "$") %>
+      </h2>
+
+      <div class="content">
+        <p>
+          <%= product.description %>
+        </p>
+        <p>
+          <%= snipcart_button product, "Add to cart" %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

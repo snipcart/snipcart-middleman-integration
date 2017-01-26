@@ -1,0 +1,57 @@
+---
+title: My awesome store
+---
+
+<div class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Snipcart's awesome cookie store
+      </h1>
+
+      <h2 class="subtitle">
+        Buy delicious cookies from our store, you won't really receive them but you'll be able to try our product; Snipcart ;)
+      </h2>
+    </div>
+
+    <section class="section">
+      <div class="columns">
+        <% data.products.each_with_index do |b, index| %>
+          <div class="column">
+            <div class="card">
+              <div class="card-image has-text-centered">
+                <a href="<%= b.path %>">
+                  <img src="<%= b.image %>" style="max-width: 90%; min-height: 200px; width: auto; height: auto" />
+                </a>
+              </div>
+
+              <div class="card-content">
+
+                <div class="content">
+                  <p class="title is-4"><%= b.name %></p>
+                  <p class="subtitle is-6"><%= number_to_currency(b.price, :unit => "$") %></p>
+                </div>
+              </div>
+
+
+              <footer class="card-footer">
+                <span class="card-footer-item">
+                  <%= snipcart_button b, "Add to cart" %>
+                </span>
+              </footer>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<div class="row">
+  <ul class="small-block-grid-1 large-block-grid-3">
+
+    
+
+  </ul>
+</div>

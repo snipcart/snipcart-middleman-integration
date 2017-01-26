@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "normalize";
+
+
+.snip-layout {
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #fff;
+  }
+
+  table thead {
+    background: #fff;
+  }
+
+  h2 {
+    color: #fff;
+  }
+}

@@ -1,0 +1,22 @@
+- name: Chocolate Chip Cookies
+  id: 101
+  price: 10.99
+  max_quantity: 10
+  path: products/chocolate-chip-cookies
+  image: https://snipcart.com/media/10107/chocolate-chips-cookies.png
+  description: Uncontested, delightful classic.
+
+- name: Oatmeal Raisin Cookies
+  id: 102
+  price: 8.00
+  max_quantity: 20
+  path: products/oatmeal-raisin-cookies
+  image: https://snipcart.com/media/10108/oatmeal-raisin-cookies.png
+  description: Delicious, all-day treat.
+
+- name: Peanut Butter Cookies
+  id: 103
+  price: 10.00
+  path: products/peanut-butter-cookies
+  image: https://snipcart.com/media/10113/peanut-butter-cookies2.png
+  description: Savoury, timeless pick.
