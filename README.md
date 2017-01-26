@@ -1,5 +1,7 @@
 # Middleman Tutorial (v4): Static E-Commerce on a Ruby Site Generator
 
+![snipcart-middleman-tutorial-static-ecommerce-demo](https://snipcart.com/media/10122/snipcart-middleman-tutorial-static-ecommerce-demo.png)
+
 This repository contains a sample Middleman application integrated with Snipcart, an HTML/JS shopping cart platform.
 
 + Middleman generates the static site.
